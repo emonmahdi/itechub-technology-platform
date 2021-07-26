@@ -1,0 +1,205 @@
+@media (max-width: 2070px){ 
+}
+@media (max-width: 1200px){ 
+}
+@media (max-width: 1024px){
+	.menu ul li a{
+	 	display: none;
+	 }  
+	.navvbar .logo{
+	 	line-height:0rem;
+	 }
+	 .navvbar .logo{  
+	   width: 40%;
+	}
+	 .stickynav { 
+	    padding: .5rem;
+	}
+	.stickynav .mobile-menu .bars{ 
+	 
+	}
+	.stickynav .navvbar .logo a{
+	 
+	}
+	.mobile-menu .bars{
+	 	display: block;  
+	 }
+	 
+}
+@media (max-width:  992px){ 
+	.section-title h2::before{
+	  	left: 38%;
+	  }
+	.single-service{ 
+		height: 33rem;
+	}
+}
+@media (max-width: 768px){
+	.about-content{
+    	padding-top: 0rem;
+    	margin-bottom: 8rem;
+
+	} 
+	.single-service{ 
+		height: auto;
+	}
+	.section-title {
+	    width: 70%;  
+	}
+	.section-title h2::before{
+	  	left: 35%;
+	  }
+	.carousel-caption h3 {
+		font-size: 3rem;
+	}
+	.carousel-caption p{
+		font-size: 1.6rem;
+	}
+	.carousel-caption{
+		width: 80%;
+	}
+	.contact-body form{
+		margin-top: 4rem;
+	}
+	.useful-links,.services-link{
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+}
+@media (max-width:  668px){  
+}
+@media (max-width:  576px){  
+	#portfolio .gallery-overlay{
+		padding-top: 12rem;
+	}
+}
+@media (max-width:  592px){
+	.section-title h2::before{
+	  	left: 28%;
+	  }
+}
+@media (max-width:  572px){ 
+	.carousel-indicators{
+    	bottom:5rem;
+	}
+	.section-title h2{
+		font-size: 3rem;
+	}
+	.navvbar .logo a{
+		font-size: 2.5rem;
+	} 
+}
+@media (max-width:  480px){ 
+	header{  
+	    height: 85vh;
+
+	}
+
+	.btn-primary{
+		font-size: 1.5rem;
+	}
+	.section-title {
+	    width: 80%;  
+	}
+	.section-title h2{
+		font-size: 2.5rem;
+	}
+	.carousel-item img{  
+	    height: 85vh; 
+	}
+	.single-service i{
+		height: 4rem;
+	    width: 4rem;
+	    line-height: 4rem;
+	    font-size: 2rem;
+	}
+}
+@media (max-width:  368px){  
+	.carousel-indicators{
+    	bottom:0rem;
+	}
+	.navvbar .logo a{
+		font-size: 2rem;
+	}
+	.section-title h2{
+		font-size: 1.8rem!important;
+	}
+	.mobile-menu .bars{
+		font-size: 2.2rem;	
+	}
+	.section-title h2{
+		font-size: 2.5rem;
+	}
+	.section-title h2::before{
+	  	left: 35%;
+	  	width: 90px;
+	  }
+	.carousel-caption h3{
+		font-size: 2rem;
+	}
+	.btn-primary{
+		font-size: 1rem;
+	}  
+	.single-service h3{
+		font-size: 1.7rem;
+	}
+	#services-section .single-service .btn-primary{
+    	font-size: 1rem!important;
+	} 
+	.section-title p{
+    	margin-top: 1rem;
+	}
+	#team-member .section-title{
+    margin-bottom: 3rem; 
+	}
+
+	.single-member{
+		padding: 1rem;
+	}
+	.single-member img{
+	    width: 12rem;
+	    height: 12rem;  
+    	margin-bottom: 1rem; 
+	}
+	.single-member h4{ 
+	    font-size: 1.5rem;
+	}
+	.single-member span{
+		margin-bottom: 0.5rem;
+	}
+	#portfolio .gallery-overlay{
+		padding-top: 6rem;
+	}
+	.blog-deatils .date{ 
+	    width: 10rem; 
+	    padding: .5rem .5rem; 
+	    font-size: 1rem;
+	    margin-bottom: 1rem;
+	}
+	.blog-deatils h4 a{
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+	#blog-section .blog-img img{ 
+	    height: 21rem;  
+	}
+}
+@media (max-width:  300px){ 
+	.carousel-indicators{
+    	bottom:2rem;
+	}
+	.navvbar .logo{  
+	   width: 60%;
+	}
+	.section-title h2::before{
+	  	left: 33%; 
+	  }
+}
+@media (max-width:  268px){  
+	.section-title h2::before{
+	  	left: 28%; 
+	  }
+	  #portfolio .gallery-overlay{
+		padding-top: 3rem;
+	}
+}

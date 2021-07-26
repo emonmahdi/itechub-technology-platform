@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>iTech Hub</title>  
+	<link rel="shortcut icon" href="iconi.jpg" type="image/jpg">
+	<link rel="stylesheet" href="css/fontawesome-5/css/all.min.css">
+	<link rel="stylesheet" href="css/venobox.min.css"> 
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- bootstrap link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/main.css"> 
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- update six time -->
+<body> 
+	<header id="home">
+		<nav class="navvbar">
+			<div class="container">
+				<div class="logo">
+					<a href="#home">iTech Hub</a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li>
+							<a href="#home">Home</a>
+						</li>
+						<li>
+							<a href="#message-founder">About</a>
+						</li>
+						<li>
+							<a href="#services-section">Services</a>
+						</li>
+						<li>
+							<a href="#team-member">Our Team</a>
+						</li>
+						<li>
+							<a href="#portfolio">Porfolio</a>
+						</li>
+						<li>
+							<a href="#client-section">Client </a>
+						</li>
+						<li>
+							<a href="#blog-section">Blog</a>
+						</li>
+						<li>
+							<a href="#">Traning </a>
+						</li>
+						<li>
+							<a href="#contact-section">Contact</a>
+						</li>
+					</ul>
+					<div class="mobile-menu">
+						<span class="bars" onclick="openNav()"><i class="fas fa-bars"></i></span>
+						<div class="overlay-menu" id="MyNav">
+							<a class="CloseBtn" href="javascript:void(0)" onclick="closeNav()"><i class="fas fa-times-circle"></i></a>
+							<div class="overlay-content">
+								<a href="#home" onclick="closeNav()">Home</a>
+								 <a href="#message-founder" onclick="closeNav()">About</a>
+								<a href="#services-section" onclick="closeNav()">Services</a>
+								<a href="#team-member" onclick="closeNav()">Our Team</a>
+								<a href="#portfolio" onclick="closeNav()">Porfolio</a>
+								<a href="#client-section" onclick="closeNav()">Client </a>
+								<a href="#blog-section" onclick="closeNav()">Blog</a>
+								<a href="#" onclick="closeNav()">Traning </a>
+								<a href="#contact-section" onclick="closeNav()">Contact</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav><!-- SLIDER -->
+		<div id="carouselExampleControls" class="carousel slide overflow-hidden mt-5 itechub-bg-carousel itechub-carousel" data-bs-ride="carousel">
+			<div class="carousel-inner itechub-carousel-inner">
+			  <div class="carousel-item active">
+				  <div class="container">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="col-md-8">
+							<div class="carousel-content">
+								<h3>Machine Learning</h3>
+								<p>We exploit the power of Machine Learning to model your complex data, solve your big puzzles and answer your tough questions.</p> 
+								<a class="itechub-btn-primary" href="#">Learn More</a>
+							</div> 
+						</div>
+						<div class="col-md-4 itechub-slider-img">
+							<img alt="" class="img-fluid" src="images/slider/new/machibelearning.png">
+						</div> 
+					</div> 
+				  </div>
+			  </div>
+			  <div class="carousel-item">
+				<div class="container">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="col-md-8">
+							<div class="carousel-content">
+								<h3>Deep Learning</h3>
+								<p>We exploit the power of Machine Learning to model your complex data, solve your big puzzles and answer your tough questions.</p> 
+								<a class="itechub-btn-primary" href="#">Learn More</a>
+							</div> 
+						</div>
+						  <div class="col-md-4 itechub-slider-img">
+							<img alt="" class="img-fluid" src="images/slider/new/deep-learning.png">
+						  </div> 
+					  </div> 
+				  </div>
+			  </div>
+			  <div class="carousel-item ">
+				<div class="container">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="col-md-8">
+							<div class="carousel-content">
+								<h3>Mobile Application</h3>
+								<p>We exploit the power of Machine Learning to model your complex data, solve your big puzzles and answer your tough questions.</p> 
+								<a class="itechub-btn-primary" href="#">Learn More</a>
+							</div> 
+						</div>
+						  <div class="col-md-4 itechub-slider-img">
+							<img alt="" class="img-fluid" src="images/slider/new/mobile-apps1.png">
+						  </div> 
+					  </div> 
+				  </div>
+			  </div>  
+			  <div class="carousel-item ">
+				<div class="container">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="col-md-8">
+							<div class="carousel-content">
+								<h3>Web-Design-Development</h3>
+								<p>We exploit the power of Machine Learning to model your complex data, solve your big puzzles and answer your tough questions.</p> 
+								<a class="itechub-btn-primary" href="#">Learn More</a>
+							</div> 
+						</div>
+						  <div class="col-md-4 itechub-slider-img">
+							<img alt="" class="img-fluid" src="images/slider/new/software-developer.png">
+						  </div> 
+					  </div> 
+				  </div>
+			  </div>  
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+		<!--<div class="carousel slide carousel-fade itechub-carousel" data-bs-ride="carousel" id="SliderC">
+			<ul class="carousel-indicators">
+				<li class="active" data-bs-slide-to="0" data-bs-target="#SliderC"></li>
+				<li data-bs-slide-to="1" data-bs-target="#SliderC"></li>
+				<li data-bs-slide-to="2" data-bs-target="#SliderC"></li>
+				<li data-bs-slide-to="3" data-bs-target="#SliderC"></li>
+				<li data-bs-slide-to="4" data-bs-target="#SliderC"></li>
+				<li data-bs-slide-to="5" data-bs-target="#SliderC"></li>
+			</ul>
+			 <div class="carousel-inner bg-info itechub-carousel-inner">
+				<div class="carousel-item active overlay">
+					<div class="container">
+						<div class="row d-flex justify-content-center align-items-center">
+							<div class="col-lg-6">
+								<div class="carousel-content">
+									<h3>Machine Learning</h3>
+									<p>We exploit the power of Machine Learning to model your complex data, solve your big puzzles and answer your tough questions.</p> 
+									<a class="btn itechub-btn-primary" href="#">Learn More</a>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="carousel-image">
+									<img alt="" class="img-fluid" src="images/slider/n/4.jpg">
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div> -->
+				 
+				 
+				<!-- <div class="carousel-item overlay">
+					  <img alt="" class="img-fluid" src="images/slider/n/7.jpg">  
+					<div class="carousel-caption">
+						<h3>Deep Learning </h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!</p> 
+						<a class="btn itechub-btn-primary" href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="carousel-item overlay">
+					  <img alt="" class="img-fluid" src="images/slider/n/6.jpg"> 
+					<div class="carousel-caption">
+						<h3>Natural Language Processing</h3>
+						<p>We leverage the power of Natural Language Processing (NLP) to understand textual and tabular data to derive actionable intelligence.</p> 
+						<a class="btn itechub-btn-primary" href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="carousel-item overlay">
+					 <img alt="" class="img-fluid" src="images/slider/n/1.jpg"> 
+					<div class="carousel-caption">
+						<h3>Web design</h3>
+						<p>iTech Hub in house design team are responsible for providing a better user experience throughout all design materials.</p> 
+						<a class="btn itechub-btn-primary" href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="carousel-item overlay">
+					  <img alt="" class="img-fluid" src="images/slider/n/5.jpg">  
+					<div class="carousel-caption">
+						<h3>Web development</h3>
+						<p>It is not just a product you build, it helps bring peace to the minds of thousands of people we serve</p> 
+						<a class="btn itechub-btn-primary" href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="carousel-item overlay">
+					 <img alt="" class="img-fluid" src="images/slider/n/3.jpg"> 
+					<div class="carousel-caption">
+						<h3>Mobile Apps Development</h3>
+						<p>Mobile apps development in android platform design with the specific goal of helping the people</p> 
+						<a class="btn itechub-btn-primary" href="#">Learn More</a>
+					</div>
+				</div> -->
+			<!-- </div>
+			   <a class="carousel-control-prev" data-bs-slide="prev" href="#SliderC"><span class="carousel-control-prev-icon"></span></a>
+			 <a class="carousel-control-next" data-bs-slide="next" href="#SliderC"><span class="carousel-control-next-icon"></span></a>  
+		</div> -->
+	</header>
+  <!-- ====================================================================== -->
+  <!-- =============================About use section======================== -->
+  <!-- ====================================================================== -->
+	<section id="message-founder">
+		<div class="container">
+			<div class="section-title text-center">
+				<h2>About Us</h2> 
+			</div>
+			<div class="row d-flex align-items-center">
+				<div class="col-md-6">
+					<div class="about-content">
+						<h3>iTech Hub</h3>
+						<p>iTech Hub is a USA based company with an office in dhaka, Bangladesh. We have been operating since 2012. iTech hub is a global team of professionals with diverse expertise of working together across Bangladesh and USA. We believe that iTech Hub as a company, service and product strives to make a difference to make a better world.</p><a class="btn itechub-btn-primary" href="#">More About Us</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="image-about">
+					    <img alt="" class="img-fluid" src="images/about.png">
+					</div>
+				</div>
+				</div>
+			</div> 
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+  				<path fill="#ddd" fill-opacity="1" d="M0,192L1440,64L1440,320L0,320Z"></path>
+		</svg>
+	</section> 
+	<!-- ==================================================================== -->
+	<!-- ========================Start services-section====================== -->
+	<!-- ==================================================================== -->
+	<section id="services-section"> 
+		<div class="container"> 
+			<div class="section-title text-center" >
+				<h2>Our Services</h2>
+				<p>To understand our customers’ business & technology issues and to deliver measurable tangible results through our experience in and commitment to a varied range of platforms and products, and with dedication to stay current with reliable & proven technologies, to maximize the value of our services to our customers and to develop a competent and highly motivated workforce.</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="single-service">
+						<img src="images/services/1.png" style="height: 80px; width: 80px;" class="img-fluid" alt="">
+						<h3>Machine Learning</h3>
+						<p>We exploit the power of Machine Learning to model your complex data, solve your big puzzles and answer your tough questions.</p><a class="itechub-btn-primary read-more" href="#">Read More</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-service">
+						<img src="images/services/deep-learning.png" style="height: 80px; width: 80px;" class="img-fluid" alt="">
+						<h3>Deep Learning </h3>
+						<p>We exploit the power of Machine Learning to model your complex data, solve your big puzzles and answer your tough questions.</p><a class="itechub-btn-primary read-more" href="#">Read More</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-service">
+						<img src="images/services/language.png" style="height: 80px; width: 80px;" class="img-fluid" alt="">
+						<h3>Natural Language Processing</h3>
+						<p>We leverage the power of Natural Language Processing (NLP) to understand textual and tabular data to derive actionable intelligence.</p><a class="itechub-btn-primary read-more" href="#">Read More</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-service">
+						<img src="images/services/responsive.png" style="height: 80px; width: 80px;" class="img-fluid" alt="">
+						<h3>Web design</h3>
+						<p>iTech Hub in house design team are responsible for providing a better user experience throughout all design materials.</p><a class="itechub-btn-primary read-more" href="#">Read More</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-service">
+						<img src="images/services/programming.png" style="height: 80px; width: 80px;" class="img-fluid" alt="">
+						<h3>Web development</h3>
+						<p>It is not just a product you build, it helps bring peace to the minds of thousands of people we serve</p><a class="itechub-btn-primary read-more" href="#">Read More</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-service">
+						<img src="images/services/app.png" style="height: 80px; width: 80px;" class="img-fluid" alt="">
+						<h3>Mobile Apps Development</h3>
+						<p>Mobile apps development in android platform design with the specific goal of helping the people</p><a class="itechub-btn-primary read-more" href="#">Read More</a>
+					</div>
+				</div>
+				<!--  
+				 
+				<div class="col-lg-4 col-md-6">
+					<div class="single-service">
+						<i class="fas fa-basketball-ball"></i>
+						
+						<a class=" btn btn-primary read-more" href="#">Read More</a>
+					</div>
+				</div> -->
+				<div class="view-btn">
+					<a href="services.html" class="itechub-btn-primary ">View All </a>
+				</div>
+			</div>
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+  			<path fill="#2F024A" fill-opacity="1" d="M0,192L1440,64L1440,320L0,320Z"></path>
+		</svg>
+	</section>
+	<!-- ==================================================================== -->
+	<!-- ========================Start Team Member-section====================== -->
+	<!-- ==================================================================== -->
+	<section id="team-member"> 
+		<div class="container">
+			<div class="section-title text-center">
+				<h2>Our Team</h2> 
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="single-member text-center">
+						<img alt="" class="img-fluid" src="images/member/Me.jpg">
+						<h4>Md Emon Mahdi</h4><span>Web designer</span>
+						<div class="social-link">
+							<a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-skype"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single-member text-center">
+						<img alt="" class="img-fluid" src="images/member/jasim-sir.jpg">
+						<h4>Md Jasim Uddin</h4><span>CEO And Web Developer</span>
+						<div class="social-link">
+							<a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-skype"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single-member text-center">
+						<img alt="" class="img-fluid" src="images/member/2.jpg">
+						<h4>Md Al-Amin </h4><span>Back End Developer</span>
+						<div class="social-link">
+							<a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-skype"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single-member text-center">
+						<img alt="" class="img-fluid" src="images/member/1.jpg">
+						<h4>Md Ibrahim</h4><span>Web designer</span>
+						<div class="social-link">
+							<a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-skype"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+  			<path fill="#ddd" fill-opacity="1" d="M0,192L1440,64L1440,320L0,320Z"></path>
+		</svg>
+	</section>
+  <!-- ==================================================== -->
+  <!-- ================Start our gallery ================== -->
+  <!-- ==================================================== --> 
+	<section id="portfolio"> 
+		<div class="container">
+			<div class="section-title text-center">
+				<h2>Our Porfolio</h2>
+				<p>Lorem ipsum dolor sit amet, pellentesque enim lorem quis vivamus amet, lectus nullam sint, risus quis accumsan duis lacinia.</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/web-design.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/web-design.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#webdesign" target="_blank"><i class="fas fa-link"></i></a>
+							<p>Web Design</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/webdev1.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/webdev1.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#webdev"><i class="fas fa-link"></i></a>
+							<p>Web Development</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/machin1.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/machin1.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#machinel"><i class="fas fa-link"></i></a>
+							<p>Machine Learning</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/webdev2.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/webdev2.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#deepl"><i class="fas fa-link"></i></a>
+							<p>Deep Learning</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/mb2.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/mb2.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#mobileapps"><i class="fas fa-link"></i></a>
+							<p>Mobile Apps Development</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/web-design.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/web-design.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#webdesign"><i class="fas fa-link"></i></a>
+							<p>Web Desing</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/webdev4.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/webdev4.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#datascience"><i class="fas fa-link"></i></a>
+							<p>Data Science </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/webdev1.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/webdev1.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#webdev"><i class="fas fa-link"></i></a>
+							<p>Web Development</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="single-gallery">
+						<img alt="" class="img-fluid" src="images/portfolio/webdev1.jpg">
+						<div class="gallery-overlay">
+							<a class="venobox" data-gall="gallery" href="images/portfolio/webdev1.jpg"><i class="fas fa-plus"></i></a> <a href="portfolio.html#webdev"><i class="fas fa-link"></i></a>
+							<p>Web Development</p>
+						</div>
+					</div>
+				</div>
+				<div class="view-btn">
+					<a href="portfolio.html" class="btn btn-primary ">View All </a>
+				</div>
+			</div>
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+  			<path fill="#2F024A" fill-opacity="1" d="M0,192L1440,64L1440,320L0,320Z"></path>
+		</svg>
+	</section>
+	<!-- ======================================================= -->
+	<!-- ================Start  Client section================== -->
+	<!-- ======================================================= -->
+	<section id="client-section"> 
+		<div class="container">
+			<div class="section-title text-center">
+				<h2>Our <b>Client</b></h2>
+				<p>Lorem ipsum dolor sit amet, pellentesque enim lorem quis vivamus amet, lectus nullam sint, risus quis accumsan duis lacinia.</p>
+			</div>
+			<div class="row">
+				<div class="col-md">
+					<div class="owl-carousel our-client">
+						<div class="single-client"><img alt="C1.jpg" class="img-fluid" src="images/clients/C1.jpg"></div>
+						<div class="single-client"><img alt="c2.jpg" class="img-fluid" src="images/clients/c2.jpg"></div>
+						<div class="single-client"><img alt="c3.jpg" class="img-fluid" src="images/clients/c3.jpg"></div>
+						<div class="single-client"><img alt="c4.jpg" class="img-fluid" src="images/clients/c4.jpg"></div>
+						<div class="single-client"><img alt="C1.jpg" class="img-fluid" src="images/clients/c5.jpg"></div>
+						<div class="single-client"><img alt="c2.jpg" class="img-fluid" src="images/clients/c6.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+  			<path fill="#ddd" fill-opacity="1" d="M0,192L1440,64L1440,320L0,320Z"></path>
+		</svg>
+	</section>
+  <!-- ======================================================= -->
+	<!-- ==================Start  blog section================== -->
+	<!-- ======================================================= -->
+	<section id="blog-section"> 
+		<div class="container">
+			<div class="section-title text-center">
+				<h2>Our Blog</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dicta quaerat ipsam dolore! Ea, cumque?</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="single-blog">
+						<div class="blog-img"><img alt="" class="img-fluid" src="images/blog/1.jpg"></div>
+						<div class="blog-deatils">
+							<div class="date">
+								<span>16 March 2021</span>
+							</div>
+							<h4><a href="#">The Most Popular Blog Post Top Digital Eorld Places..</a></h4>
+							<div class="admin-details">
+								<ul>
+									<li>
+										<i class="fa fa-user"></i><a href="#">John Doe</a>
+									</li>
+									<li>
+										<i class="fa fa-user"></i><a href="#">30 comments</a>
+									</li>
+								</ul>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...</p>
+							<div class="read-more">
+								<a href="#">View Details <i class="fa fa-angle-double-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-blog">
+						<div class="blog-img"><img alt="" class="img-fluid" src="images/blog/2.jpg"></div>
+						<div class="blog-deatils">
+							<div class="date">
+								<span>16 March 2021</span>
+							</div>
+							<h4><a href="#">The Most Popular Blog Post Top Digital Eorld Places..</a></h4>
+							<div class="admin-details">
+								<ul>
+									<li>
+										<i class="fa fa-user"></i><a href="#">John Doe</a>
+									</li>
+									<li>
+										<i class="fa fa-user"></i><a href="#">30 comments</a>
+									</li>
+								</ul>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...</p>
+							<div class="read-more">
+								<a href="#">View Details <i class="fa fa-angle-double-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-blog">
+						<div class="blog-img"><img alt="" class="img-fluid" src="images/blog/3.jpg"></div>
+						<div class="blog-deatils">
+							<div class="date">
+								<span>16 March 2021</span>
+							</div>
+							<h4><a href="#">The Most Popular Blog Post Top Digital Eorld Places..</a></h4>
+							<div class="admin-details">
+								<ul>
+									<li>
+										<i class="fa fa-user"></i><a href="#">John Doe</a>
+									</li>
+									<li>
+										<i class="fa fa-user"></i><a href="#">30 comments</a>
+									</li>
+								</ul>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...</p>
+							<div class="read-more">
+								<a href="#">View Details <i class="fa fa-angle-double-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+  			<path fill="#2F024A" fill-opacity="1" d="M0,192L1440,64L1440,320L0,320Z"></path>
+		</svg>
+	</section>
+  <!-- ======================================== -->
+  <!-- =============Start Contact============== -->
+	<!-- ======================================== -->
+
+	<section id="contact-section"> 
+		<div class="container">
+			<div class="section-title text-center">
+				<h2>Conatct</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<h3>Follow on Map</h3><iframe allowfullscreen aria-hidden="false" frameborder="0" height="400" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29452.617651166478!2d90.33528616574574!3d22.669546998493693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755345e7716e8ff%3A0x17a8b0b1de2ce47e!2sRupatali%2C%20Barishal!5e0!3m2!1sen!2sbd!4v1600166496738!5m2!1sen!2sbd" style="border:0;" tabindex="0" width="100%"></iframe>
+				</div>
+				<div class="col-md-6 contact-body">
+					<form action="">
+						<input class="form-control mb-3" placeholder="Enter your name" type="text"> <input class="form-control mb-3" placeholder="Enter your email" type="email"> <input class="form-control mb-3" placeholder="Enter your phon number" type="phone"> 
+						<textarea class="form-control mb-3" placeholder="Message"></textarea> <input class="btn btn-primary btn-submit mx-auto d-block" type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+  
+  <!-- =================================================== -->
+  <!-- =================Start Footer Section============== -->
+  <!-- =================================================== -->
+	
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3 class="flogo"><a href="#home">iTech Hub</a></h3>
+					<h6>A108 Adam Street New York,<br>
+					NY 53502 United States</h6>
+					<p><b>Phone:</b> 019454578751</p>
+					<p><b>Email:</b> info@example.com</p>
+					<div class="social-link ml-auto">
+						<a href=""><i class="fab fa-twitter"></i></a> <a href=""><i class="fab fa-facebook-f"></i></a> <a href=""><i class="fab fa-skype"></i></a> <a href=""><i class="fab fa-instagram"></i></a> <a href=""><i class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 useful-links">
+					<h2>useful links</h2><a href=""><i class="fas fa-angle-right"></i>home</a> <a href=""><i class="fas fa-angle-right"></i>about</a> <a href=""><i class="fas fa-angle-right"></i>service</a> <a href=""><i class="fas fa-angle-right"></i>terms of services</a> <a href=""><i class="fas fa-angle-right"></i>privacy policy</a>
+				</div>
+				<div class="col-lg-2 col-md-6 services-link">
+					<h2>Our Services</h2><a href=""><i class="fas fa-angle-right"></i>web design</a> <a href=""><i class="fas fa-angle-right"></i>web development</a> <a href=""><i class="fas fa-angle-right"></i>product managment</a> <a href=""><i class="fas fa-angle-right"></i>marketing</a> <a href=""><i class="fas fa-angle-right"></i>graphics design</a>
+				</div>
+				<div class="col-lg-5 col-md-6 bottom-input">
+					<h2>Join Our Newsletter</h2>
+					<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+					<div class="sub d-flex">
+						<input class="form-control" type="text"> <button class="btn-s btn btn-primary">Subscribe</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer><!-- ======================================== -->
+	<div class="copyright text-center">
+		<h6>Copyright &copy; 2021 <span style="color:#FFC312;">iTech Hub</span> | All Rights Reserved</h6>
+	</div> 
+	<!-- link js files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- bootstrap link -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script> -->
+    <script src="js/vendor/owl.carousel.min.js"></script> 
+    <script src="js/vendor/venobox.min.js"></script>  
+    <script src="js/main.js"></script>   
+	 
+</body>
+</html>
