@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>It Company</title>
+    <title>iTech Hub</title>
+    <link rel="shortcut icon" href="iconi.jpg" type="image/jpg">
     <link rel="stylesheet" href="css/fontawesome-5/css/all.min.css">
 	<link rel="stylesheet" href="css/venobox.min.css"> 
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- bootstrap link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/main.css"> 
 	<link rel="stylesheet" href="css/responsive.css">
@@ -79,6 +81,9 @@
             border-radius: .6rem;
             box-shadow: 0 .2rem .7rem #fff;
         }
+        .itechub-btn-primary{
+            border:none;
+        }
         .single-content{
             margin-top: 3rem;
         }
@@ -94,6 +99,7 @@
         .single-image img{
             border-radius:.5rem;
             height: 40rem;
+            width: 100%;
         }
         .caption-service{
             width: 90%;
@@ -112,6 +118,20 @@
         .caption-service p{
             line-height: 2.5rem;
         }
+        /* new code */
+        .text-number{
+            font-size: 80px;
+            color:#FFC312;
+            font-weight: 900;
+        } 
+        .service-title{
+            color:#fff;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .service-para{
+            color:#CFCFCF;
+        } 
          /*======================================================*/
         /*======================================================*/
 
@@ -224,169 +244,162 @@
        </div>
     </section>
     <!-- ========= -->
-   <section id="body-services" style="background-color: #ddd; padding:7rem 0;">
-       <div class="container">
-            <div class="title mb-5">
-                <h2 style="color:#C70039; margin-bottom: 7rem;">Our Servies </h2>
+    <section id="services-section"> 
+		<div class="container"> 
+			<div class="row d-flex align-items-center my-5">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Our Services</h2>
+						<h3>We Provide IT Services</h3>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<p class="service-text">To understand our customers’ business & technology issues and to deliver measurable tangible results through our experience in and commitment to a varied range of platforms and products, and with dedication to stay current with reliable & proven technologies, to maximize the value of our services to our customers and to develop a competent and highly motivated workforce.</p>
+				</div>
+			</div>  
+		</div>  
+	</section>
+   <!-- ======================================== -->
+
+   <section class="service-body py-5" style="background-color: #000;" >
+       <div class="row d-flex align-items-center">
+           <div class="col-lg-6 p-0">
+               <div class="service-image ">
+                   <img src="images/services/s1.jpg" class="img-fluid" alt="">
+               </div>
+           </div>
+           <div class="col-lg-6">
+               <div class="service-content p-4">
+                   <h2 class="text-number py-4">01</h2> 
+                   <h3 class="py-2 service-title">Machine Learning </h3>
+                   <p class="py-3 service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque ultricies feugiat. Curabitur eu cursus libero. Vivamus eu nisl gravida, venenatis lacus id, tristique mi. Mauris tincidunt nisl lacus, ut dapibus purus convallis vitae. Lorem ipsum dolor sit amet.</p>
+                    <div class="read-more">
+                        <a href="#" class="fw-bold">Read More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
+               </div>
+           </div>
+       </div>
+       <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="service-content p-4">
+                    <h2 class="text-number py-4">02</h2> 
+                    <h3 class="py-2 service-title">Deep Learning</h3>
+                    <p class="py-3 service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque ultricies feugiat. Curabitur eu cursus libero. Vivamus eu nisl gravida, venenatis lacus id, tristique mi. Mauris tincidunt nisl lacus, ut dapibus purus convallis vitae. Lorem ipsum dolor sit amet.</p>
+                    <div class="read-more">
+                        <a href="#" class="fw-bold">Read More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                </div>
             </div>
-           <div class="row">
-                <div class="col-lg-12 mb-5 pt-5" id="services-ml">
-                     <div class="servie-row mb-4">
-                         <div class="row all-services">
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-image">
-                                          <img class="img-fluid" src="images/portfolio/machin1.jpg" alt="">
-                                    </div>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-content">
-                                        <h3>Machine Learning </h3>
-                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Quo, necessitatibus consectetur ex eius illo vel, excepturi maiores blanditiis quaerat dolores. Aperiam, aliquam earum, ipsa harum minus corrupti quis quo, animi qui eligendi at autem. Similique consequatur nulla quasi, incidunt maiores a repellat. Facere sunt illum, porro ipsum cupiditate voluptate, qui!</p>
-                                         <a class="btn btn-primary" href="#">Read More </a>
-                                    </div>
-                                 </div>
-                             </div>
-                        </div>
-                     </div>
+            <div class="col-lg-6 p-0">
+                <div class="service-image p-0">
+                    <img src="images/services/s1.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-12 mb-5 pt-5" id="services-deepl">
-                     <div class="servie-row mb-4">
-                         <div class="row all-services">
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-image">
-                                          <img class="img-fluid" src="images/portfolio/webdev2.jpg" alt="">
-                                    </div>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-content">
-                                        <h3>Deep Learning</h3>
-                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Quo, necessitatibus consectetur ex eius illo vel, excepturi maiores blanditiis quaerat dolores. Aperiam, aliquam earum, ipsa harum minus corrupti quis quo, animi qui eligendi at autem. Similique consequatur nulla quasi, incidunt maiores a repellat. Facere sunt illum, porro ipsum cupiditate voluptate, qui!</p>
-                                         <a class="btn btn-primary" href="#">Read More </a>
-                                    </div>
-                                 </div>
-                             </div>
-                        </div>
-                     </div>
+            </div> 
+       </div>
+       <div class="row d-flex align-items-center">
+            <div class="col-lg-6 p-0">
+                <div class="service-image p-0">
+                    <img src="images/services/s1.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-12 mb-5 pt-5" id="services-das">
-                     <div class="servie-row mb-4">
-                         <div class="row all-services">
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-image">
-                                          <img class="img-fluid" src="images/portfolio/webdev4.jpg" alt="">
-                                    </div>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-content">
-                                        <h3>Data Science</h3>
-                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Quo, necessitatibus consectetur ex eius illo vel, excepturi maiores blanditiis quaerat dolores. Aperiam, aliquam earum, ipsa harum minus corrupti quis quo, animi qui eligendi at autem. Similique consequatur nulla quasi, incidunt maiores a repellat. Facere sunt illum, porro ipsum cupiditate voluptate, qui!</p>
-                                         <a class="btn btn-primary" href="#">Read More </a>
-                                    </div>
-                                 </div>
-                             </div>
-                        </div>
-                     </div>
+            </div> 
+            <div class="col-lg-6">
+                <div class="service-content p-4">
+                    <h2 class="text-number py-4">03</h2> 
+                    <h3 class="py-2 service-title">Data Science </h3>
+                    <p class="py-3 service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque ultricies feugiat. Curabitur eu cursus libero. Vivamus eu nisl gravida, venenatis lacus id, tristique mi. Mauris tincidunt nisl lacus, ut dapibus purus convallis vitae. Lorem ipsum dolor sit amet.</p>
+                    <div class="read-more">
+                        <a href="#" class="fw-bold">Read More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
                 </div>
-                <div class="col-lg-12 mb-5 pt-5" id="services-nlp">
-                     <div class="servie-row mb-4">
-                         <div class="row all-services">
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-image">
-                                          <img class="img-fluid" src="images/portfolio/wed.jpg" alt="">
-                                    </div>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-content">
-                                        <h3>Natural Language Processing</h3>
-                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Quo, necessitatibus consectetur ex eius illo vel, excepturi maiores blanditiis quaerat dolores. Aperiam, aliquam earum, ipsa harum minus corrupti quis quo, animi qui eligendi at autem. Similique consequatur nulla quasi, incidunt maiores a repellat. Facere sunt illum, porro ipsum cupiditate voluptate, qui!</p>
-                                         <a class="btn btn-primary" href="#">Read More </a>
-                                    </div>
-                                 </div>
-                             </div>
-                        </div>
-                     </div>
+            </div> 
+       </div>
+       <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="service-content p-4">
+                    <h2 class="text-number py-4">04</h2> 
+                    <h3 class="py-2 service-title">Natural Language Processing </h3>
+                    <p class="py-3 service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque ultricies feugiat. Curabitur eu cursus libero. Vivamus eu nisl gravida, venenatis lacus id, tristique mi. Mauris tincidunt nisl lacus, ut dapibus purus convallis vitae. Lorem ipsum dolor sit amet.</p>
+                    <div class="read-more">
+                        <a href="#" class="fw-bold">Read More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
                 </div>
-                <div class="col-lg-12 mb-5 pt-5" id="services-wd">
-                     <div class="servie-row mb-4">
-                         <div class="row all-services">
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-image">
-                                          <img class="img-fluid" src="images/portfolio/web1.jpg" alt="">
-                                    </div>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-content">
-                                        <h3>Web design </h3>
-                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Quo, necessitatibus consectetur ex eius illo vel, excepturi maiores blanditiis quaerat dolores. Aperiam, aliquam earum, ipsa harum minus corrupti quis quo, animi qui eligendi at autem. Similique consequatur nulla quasi, incidunt maiores a repellat. Facere sunt illum, porro ipsum cupiditate voluptate, qui!</p>
-                                         <a class="btn btn-primary" href="#">Read More </a>
-                                    </div>
-                                 </div>
-                             </div>
-                        </div>
-                     </div>
-                </div>
-                <div class="col-lg-12 mb-5 pt-5" id="services-wdev">
-                     <div class="servie-row mb-4">
-                         <div class="row all-services">
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-image">
-                                          <img class="img-fluid" src="images/portfolio/webdev1.jpg" alt="">
-                                    </div>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-content">
-                                        <h3>Web development  </h3>
-                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Quo, necessitatibus consectetur ex eius illo vel, excepturi maiores blanditiis quaerat dolores. Aperiam, aliquam earum, ipsa harum minus corrupti quis quo, animi qui eligendi at autem. Similique consequatur nulla quasi, incidunt maiores a repellat. Facere sunt illum, porro ipsum cupiditate voluptate, qui!</p>
-                                         <a class="btn btn-primary" href="#">Read More </a>
-                                    </div>
-                                 </div>
-                             </div>
-                        </div>
-                     </div>
-                </div>
-                <div class="col-lg-12 mb-5 pt-5" id="services-ma">
-                     <div class="servie-row mb-4">
-                         <div class="row all-services">
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-image">
-                                          <img class="img-fluid" src="images/portfolio/mb2.jpg" alt="">
-                                    </div>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class=" ">
-                                     <div class="single-content">
-                                        <h3>Mobile Apps Development </h3>
-                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Quo, necessitatibus consectetur ex eius illo vel, excepturi maiores blanditiis quaerat dolores. Aperiam, aliquam earum, ipsa harum minus corrupti quis quo, animi qui eligendi at autem. Similique consequatur nulla quasi, incidunt maiores a repellat. Facere sunt illum, porro ipsum cupiditate voluptate, qui!</p>
-                                         <a class="btn btn-primary" href="#">Read More </a>
-                                    </div>
-                                 </div>
-                             </div>
-                        </div>
-                     </div>
-                </div> 
             </div>
+            <div class="col-lg-6 p-0">
+                <div class="service-image p-0">
+                    <img src="images/services/s1.jpg" class="img-fluid" alt="">
+                </div>
+            </div> 
+       </div>
+       <div class="row d-flex align-items-center">
+            <div class="col-lg-6 p-0">
+                <div class="service-image p-0">
+                    <img src="images/services/s1.jpg" class="img-fluid" alt="">
+                </div>
+            </div> 
+            <div class="col-lg-6">
+                <div class="service-content p-4">
+                    <h2 class="text-number py-4">05</h2> 
+                    <h3 class="py-2 service-title">Web design </h3>
+                    <p class="py-3 service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque ultricies feugiat. Curabitur eu cursus libero. Vivamus eu nisl gravida, venenatis lacus id, tristique mi. Mauris tincidunt nisl lacus, ut dapibus purus convallis vitae. Lorem ipsum dolor sit amet.</p>
+                    <div class="read-more">
+                        <a href="#" class="fw-bold">Read More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div> 
+       </div>
+       <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="service-content p-4">
+                    <h2 class="text-number py-4">06</h2> 
+                    <h3 class="py-2 service-title">Web development</h3>
+                    <p class="py-3 service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque ultricies feugiat. Curabitur eu cursus libero. Vivamus eu nisl gravida, venenatis lacus id, tristique mi. Mauris tincidunt nisl lacus, ut dapibus purus convallis vitae. Lorem ipsum dolor sit amet.</p>
+                    <div class="read-more">
+                        <a href="#" class="fw-bold">Read More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0">
+                <div class="service-image p-0">
+                    <img src="images/services/s1.jpg" class="img-fluid" alt="">
+                </div>
+            </div> 
+       </div>
+       <div class="row d-flex align-items-center">
+            <div class="col-lg-6 p-0">
+                <div class="service-image p-0">
+                    <img src="images/services/s1.jpg" class="img-fluid" alt="">
+                </div>
+            </div> 
+            <div class="col-lg-6">
+                <div class="service-content p-4">
+                    <h2 class="text-number py-4">07</h2> 
+                    <h3 class="py-2 service-title">Mobile Apps Development </h3>
+                    <p class="py-3 service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque ultricies feugiat. Curabitur eu cursus libero. Vivamus eu nisl gravida, venenatis lacus id, tristique mi. Mauris tincidunt nisl lacus, ut dapibus purus convallis vitae. Lorem ipsum dolor sit amet.</p>
+                    <div class="read-more">
+                        <a href="#" class="fw-bold">Read More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div> 
+       </div>
+       <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="service-content p-4">
+                    <h2 class="text-number py-4">08</h2> 
+                    <h3 class="py-2 service-title">Search Engine Optimization </h3>
+                    <p class="py-3 service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque ultricies feugiat. Curabitur eu cursus libero. Vivamus eu nisl gravida, venenatis lacus id, tristique mi. Mauris tincidunt nisl lacus, ut dapibus purus convallis vitae. Lorem ipsum dolor sit amet.</p>
+                    <div class="read-more">
+                        <a href="#" class="fw-bold">Read More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0">
+                <div class="service-image p-0">
+                    <img src="images/services/s1.jpg" class="img-fluid" alt="">
+                </div>
+            </div> 
        </div>
    </section>
+    
 <!-- ======================================== -->
 <footer class="footer-section">
     <div class="container">
@@ -423,8 +436,8 @@
 
     <!-- link js files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/vendor/popper.min.js"></script>
+    <!-- bootstrap link -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/vendor/owl.carousel.min.js"></script> 
     <script src="js/vendor/venobox.min.js"></script>  
     <script src="js/main.js"></script>   

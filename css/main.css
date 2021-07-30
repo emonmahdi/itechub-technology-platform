@@ -95,19 +95,17 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
- 
+   ========================================================================== */ 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 html, body {
     font-size: 1.5rem;
-    color: #666;
-    font-family: 'Merriweather', serif;
+    color: #666; 
+    font-family: 'Roboto', sans-serif;
 }
 html{
     scroll-behavior: smooth;
-    font-size: 62.5%;
+    font-size: 62.5%; 
 }
 *{
     margin: 0;
@@ -134,16 +132,8 @@ h5{
 }
 h6{
     font-size: 1.6rem;
-}
-section{
-    /*padding: 6rem 0;*/
-}
-.section-title {
-    width: 60%;
-    margin: 0 auto;
-
-}
-.section-title h2::before{
+} 
+/* .section-title h2::before{
     position: absolute;
     content: '';
     top: 100%;
@@ -161,31 +151,37 @@ section{
     height: 1.5rem;
     border-radius: 50%;
     background-color: #2F024A;
-}
+} */
 .section-title h2{
-    color:#2F024A;
+    color:#FFC312;
     text-transform: capitalize;
     font-weight: 600;
-    font-size: 3.5rem;
-    position: relative;
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
+    font-size: 1.6rem;  
 }
-.section-title p{
-    margin-top: 3rem;
-}
+.section-title h3{
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: 900;
+    color:#fff;   
+} 
 .itechub-btn-primary{
-    background-image: linear-gradient(to bottom right, cyan, yellow);
+    /* background-image: linear-gradient(to bottom right, cyan, yellow); */
+    background-color: transparent;
     padding:10px 25px;
-    color:#2F024A;
+    /* color:#2F024A; */
+    color:#fff;
     font-weight: 600;
     font-size: 18px;
+    border:2px solid #fff;
     border-radius: 30px;
     transition: .3s ease-in-out;
 }
 .itechub-btn-primary:hover {
-    background-image: linear-gradient(to bottom right, yellow, cyan );
-    color:#C70039;
+    /* background-image: linear-gradient(to bottom right, yellow, cyan ); */
+    /* color:#C70039; */
+    border:2px solid #fff;
+    background-color: #fff;
+    color:#000;
 }
 /*==============================header area  Start==============================*/
 
@@ -269,41 +265,13 @@ nav .menu ul li a.activee{
     color:#fff!important;
 }
 /*==========*/
-/* .SliderC{
-    position: relative;
-    overflow: hidden; 
-    background-color: rgba(0,0,0,.4),rgba(0,0,0,.4);
-    width: 100%;
-    height: auto;
-  
-} 
-.carousel-item::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .7);
-}
-.carousel-item img{ 
-    width: 100%; 
-    height: 95vh; 
-} 
-.carousel-caption{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    color:#fff;
-    width: 50%;
-    z-index: 999999;
-} */
+ 
 .itechub-carousel{
     height: 95vh;
 }
 .itechub-bg-carousel{
-    background-color: #363D54;
+    /* background-color: #363D54; */
+    background-color: #3AA6A3;
 }
 .carousel-content{
     padding: 100px 0;
@@ -407,48 +375,34 @@ nav .menu ul li a.activee{
 /*============================================================*/
 /*======================= End Header section =====================*/
 /*============================================================*/ 
-/*============Start message-founder seciton=============*/
-#message-founder{
-    padding-top:4rem ;    
-    background-color: #2F024A;
-    background-position: left top; 
+/*============Start about-us seciton=============*/
+#about-us{
+    padding:6.5rem 0;    
+    /* background-color: #2F024A;  */
+    background-color: #000000;
+    background-position: right top; 
     background-size: 300px;
     background-repeat: no-repeat;
     background-image: url(../images/shape-1.png);
     overflow: hidden;
     color:#fff;
-}
-#message-founder svg{ 
-}
-#message-founder .section-title {
-    margin-bottom: 7rem;
-}
-#message-founder .section-title p{
+} 
+#about-us .section-title p{
     margin:2rem 0;
-}
-#message-founder .section-title h2{
-    color:#fff;
-}
-.about-content{ 
-}
+}  
 .about-content h3{
     text-transform: capitalize;
     font-size: 40px;
-    margin-bottom: 30px;
-    font-weight: 600;
-    color:#FFC312;
+    margin: 20px 0;
+    font-weight: 900;
+    color:#fff;  
 }
 .about-content p{
     line-height: 26px;
-    font-size: 18px;
+    font-size: 1.5rem;
     margin-bottom: 30px;
-}
-.image-about { 
-     text-align: right;
+    color:#CFCFCF;
 } 
-.image-about img{
-    
-}
 .image-about{ 
     position: relative; 
     animation-name: about-animate;
@@ -465,8 +419,8 @@ nav .menu ul li a.activee{
 /*========================================================*/
 #services-section{
     overflow: hidden;
-    background-color:#ddd; 
-    padding-top:7rem; 
+    background-color:#000; 
+    padding:6.5rem; 
     background-position: right top; 
     background-size: 300px;
     background-repeat: no-repeat;
@@ -478,36 +432,32 @@ section #services-section{
 }
 /*#services-section svg{
     margin-top: -90px;
-}*/
-#services-section .section-title h2::after{
-    background-color: #ddd;
-}
-#services-section .section-title{
-    margin-bottom: 6rem; 
+}*/ 
+#services-section .section-title h3{
+    font-size: 40px;
 }
 #services-section .section-title p{
     line-height: 28px;
-    font-size: 20px;
+    font-size: 20px; 
+}
+.service-text{
+    color:#CFCFCF;
 }
 .single-service{
     height:36rem ;
-    padding:2rem;
-    background-image: linear-gradient(to bottom right, #2F024A, cyan ); 
-    box-shadow: 10px 10px 5px grey;
-    color:#fff;
-    border-radius: .6rem;
-    margin-bottom: 3rem;
-    transition: .4s;
+    padding:2rem; 
+    border:1px solid #ddd;
     top: 0px;
     position: relative;
-    cursor: pointer;
-}
-.single-service:hover{
-    background-image: linear-gradient(to bottom right, cyan , #2F024A ); 
-    box-shadow: none;
-    top: 10px;
+    margin-bottom: 30px;
     transition: .4s;
 }
+.single-service:hover{
+    border:1px solid #FF5D5B;
+    top: -10px;
+    transition: .4s;
+}
+ 
 .single-service i{
     height: 6rem;
     width: 6rem;
@@ -520,12 +470,13 @@ section #services-section{
 .single-service h3{
     margin: 2rem 0;
     font-size: 2.5rem;
-    font-weight: 700;
-    color:#FFC312;
+    font-weight: 900;
+    line-height: 3rem;
+    color:#fff;
 }
 .single-service p{
     margin-bottom: 3rem;
-    
+    color:#fff;
 }
 #services-section .single-service .read-more{
     font-size: 1.5rem;
@@ -535,61 +486,116 @@ section #services-section{
 /*========================================================*/
 /*=============== Start Team member-section===================*/
 /*========================================================*/ 
-#team-member{
-    background:#2F024A;
-    color:#fff; 
-    padding-top:7rem; 
-    background-position: left top; 
-    background-size: 600px;
-    background-repeat: no-repeat;
-    background-image: url(../images/shapes-2.png);
+#team-section{
+    background:#000000;
+    padding:70px 0;
 }
-#team-member .section-title{
-    margin-bottom: 6rem; 
-}
-#team-member .section-title h2{
-    color:#fff;
-}/*
-#team-member svg{
-    margin-top: -90px;
-}*/
-.single-member {
-    /* background-image: linear-gradient(to bottom right, #fff, rgb(48, 180, 7));  */
+.single-member{
     background:#fff;
-    box-shadow: 2px 5px 10px #fff;
-    color:#2F024A;
-    padding:2rem;
-    padding-bottom: 2rem;
-    border-radius: .5rem;
-    margin-bottom: 2rem;
+    margin-top: 40px;
+    border-radius: 6px; 
     cursor: pointer;
+    position: relative; 
+    top: 0;
+    transition: .6s;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2); 
 }
-.single-member:hover img{
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: .7s;
+.single-img{
+    position: relative; 
+    overflow: hidden; 
+}
+.single-member:hover{
+    top: -20px;
+}
+.single-img:before{
+    opacity: 0.8;
+    /* background: linear-gradient(to bottom, transparent 40%, #000000); */
+    
+    transition: opacity backgound .3s;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 0;
+}
+.single-member:hover .single-img:before{
+    /* background:rgb(22, 136, 170,.4); */
+    background: linear-gradient(#d563e8,#e31140);
+}
+.single-member:hover .social{
+    bottom: 10px;
+    opacity: 1; 
+}
+.single-member:hover img{ 
+    background-color: rgba(0 , 0, 0 ,.5);
+}
+.social{
+    position: absolute;
+    width: 100%;
+    bottom: -30px; 
+    opacity: 0;
+    transition: .7s; 
+    overflow: hidden;
+}
+.social ul{
+    margin: 0;
+    padding: 0;  
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a{
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #4EC5EF; 
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition:.3s;
+}
+.social ul li a:hover{
+    background:#C70039;
 }
 .single-member img{
-    width: 20rem;
-    height: 20rem; 
-    border-radius: 50%; 
-    border:.5rem solid #C70039;
-    display: inline-block; 
-    margin-bottom: 2rem; 
-    transform: scale(.8);
-    overflow: hidden;
-    transition: .7s;
+    height: 450px;
+    width: 100%; 
+    
 }
-.single-member h4{
-    font-weight: 700;
-    font-size: 2.2rem;
+.member-details{
+    padding:10px 15px; 
 }
-.single-member span{ 
-    display: inline-block;
-    color:#C70039;
-    font-style: italic;
-    margin-bottom: 2rem; 
+.member-details a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 20;
+    text-transform: capitalize;
+    font-weight: 600;
 }
+.member-details a h5{
+    font-size: 19px;
+    color:#fff;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.member-details span{
+    color:#2F024A;
+    font-size: 16px; 
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.member-details p{
+    font-size: 14px;
+    margin-top: 15px;
+} 
+ 
 .social-link a{
     display: inline-block;
     margin-right: 0.5rem;
@@ -608,26 +614,20 @@ section #services-section{
     border:.1rem solid #C70039;
     color:#C70039;
     transition: .3s;
-}
-
-
+} 
 /*=========================================================================*/
 
 /*==============Start our-gallery=======================*/
 
 #portfolio{
-    padding-top:7rem ;
-    background-color: #ddd;
-    padding-bottom:0;
+    padding:7rem 0;
+    background-color: #000; 
     background-position: left top; 
     background-size: 400px;
     background-repeat: no-repeat;
     background-image: url(../images/shape-3.png);
 
-} /*
-#portfolio svg{
-    margin-top: -9rem;
-}*/
+}  
 #portfolio .section-title h2::after{
     background-color: #ddd;
 }
@@ -653,7 +653,7 @@ section #services-section{
 }
 .gallery-overlay{
     position: absolute;
-    background: rgba(47, 2, 74, 0.8);
+     background: linear-gradient(rgba(213,99,232,.7),rgba(227,17,64,.7));
     top: 0;
     left: 0;   
     padding-top: 13rem; 
@@ -698,20 +698,24 @@ section #services-section{
     display: inline-block;
     text-align: center;
 }
-/*====================End Gallery section====================*/
-
-
+/*====================End Gallery section====================*/ 
 
 
 /*====================Start client-section section====================*/
 #client-section{
-    padding-top:7rem; 
-    background:#2F024A;
-    color:#fff;
-    padding-bottom: 0;
+    padding:7rem 0; 
+    background:#000;
+    color:#fff; 
 }  
+#client-section  .section-title{
+    width: 60%;
+    margin:0 auto;
+}
 #client-section  .section-title h2{
-    color:#fff ;
+    color:#fff;
+}
+#client-section .section-title p{
+    color:#CFCFCF;
 }
 #client-section .section-title{
     margin-bottom: 5rem;
@@ -778,16 +782,15 @@ section #services-section{
 /*===========================================*/
 
 #blog-section{
-    background:#ddd;
-    padding-top: 7rem;
-    padding-bottom: 0;
+    background:#000;
+    padding: 7rem 0; 
 }
 #blog-section .section-title h2::after{
     background-color: #ddd;
 } 
 #blog-section .single-blog{
     margin-top: 4rem;
-    background: #fff;
+    background: #050505;
     border-radius:  .6rem;
     box-shadow: 0 .5rem .10rem 0 rgba(0, 0, 0, 0.15);
 }
@@ -800,22 +803,13 @@ section #services-section{
 .blog-deatils{
     padding:2rem;
 }
-.blog-deatils .date{
-    background-color: #C70039;
-    width: 13.5rem;
-    color:#fff;
-    padding: .5rem 1rem;
-    text-align: center;
-    border-radius:.6rem!important;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
+ 
 .blog-deatils h4 a{
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     text-decoration: none;
     color:#000;
     font-weight: 600;
-    line-height: 2.3rem;
+    line-height: 2.7rem;
 }
 .blog-deatils h4 a:hover{
     color:#C70039;
@@ -847,28 +841,28 @@ section #services-section{
     font-size: 1.1rem;
 }
 .blog-deatils p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color:#CFCFCF;
 }
 .read-more a{
-    font-size: 1.2rem;
-    color:#c70039;
+    font-size: 1.5rem;
+    color:#FF5D5B;
 }
 .read-more i{
     transition: .3s;
 }
 .read-more a:hover{
-    color:#000;
+    color:#fff;
 }
 .read-more a:hover i{
     display: inline-block;
     margin-left: .5rem;
 }
-
-
+ 
 /*==========Start conatct-section==========*/
 #contact-section{
     padding: 7rem 0;
-    background-color: #2F024A;
+    background-color: #000;
 } 
 #contact-section .section-title{
     margin-bottom: 4rem;
@@ -903,11 +897,13 @@ section #services-section{
 .btn-submit{
     padding: 1rem 4rem!important;
     font-size: 2rem; 
-    color:#000; 
+    color:#fff; 
     border:none;
+    border:1px solid #fff;
 }
 .btn-submit:hover{
     cursor: pointer!important;
+    border:1px solid #fff;
 }
 /*===============End Contact Section==============*/
 
@@ -968,8 +964,7 @@ section #services-section{
     padding: 1rem 0;
 }
 .sub input{
-    width: 60%;
-     
+    width: 60%; 
 }
 .sub .btn-s{ 
     border:none;
@@ -1018,7 +1013,6 @@ section #services-section{
     text-transform: capitalize;
     color:#1bac91;
     font-weight: 400; 
-
 }
 .copyright{
     padding:20px 0;
