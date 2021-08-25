@@ -11,7 +11,7 @@ $(document).ready(function(){
   // Carousel 
 
    $('.carousel').carousel({
-      interval: 2000,
+      interval: 6000,
     });
 
 
@@ -22,6 +22,7 @@ $(document).ready(function(){
     $(this).addClass('activee');
   });
 
+  var mixer = mixitup('.mixxitup');
 
  // Venibox 
 	$('.venobox').venobox({

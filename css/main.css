@@ -166,22 +166,17 @@ h6{
 } 
 .itechub-btn-primary{
     /* background-image: linear-gradient(to bottom right, cyan, yellow); */
-    background-color: transparent;
-    padding:10px 25px;
-    /* color:#2F024A; */
-    color:#fff;
-    font-weight: 600;
-    font-size: 18px;
-    border:2px solid #fff;
-    border-radius: 30px;
-    transition: .3s ease-in-out;
-}
-.itechub-btn-primary:hover {
-    /* background-image: linear-gradient(to bottom right, yellow, cyan ); */
-    /* color:#C70039; */
-    border:2px solid #fff;
     background-color: #fff;
+    padding:10px 25px; 
     color:#000;
+    font-weight: 600;
+    font-size: 18px; 
+    border-radius: 30px; 
+    transition: .8s;
+}
+.itechub-btn-primary:hover {  
+    background: linear-gradient(#F87B94 , #fecfef)!important;
+    color: #000;
 }
 /*==============================header area  Start==============================*/
 
@@ -271,7 +266,8 @@ nav .menu ul li a.activee{
 }
 .itechub-bg-carousel{
     /* background-color: #363D54; */
-    background-color: #3AA6A3;
+    background-color: #2876f9;
+    background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
 }
 .carousel-content{
     padding: 100px 0;
@@ -284,7 +280,7 @@ nav .menu ul li a.activee{
     padding: 100px 0; 
     position: relative; 
     animation-name: slider-animate;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;  
 }
 @keyframes slider-animate {
@@ -377,9 +373,8 @@ nav .menu ul li a.activee{
 /*============================================================*/ 
 /*============Start about-us seciton=============*/
 #about-us{
-    padding:6.5rem 0;    
-    /* background-color: #2F024A;  */
-    background-color: #000000;
+    padding:9rem 0;     
+    background: linear-gradient(#667eea , #66a6ff)!important;
     background-position: right top; 
     background-size: 300px;
     background-repeat: no-repeat;
@@ -388,7 +383,7 @@ nav .menu ul li a.activee{
     color:#fff;
 } 
 #about-us .section-title p{
-    margin:2rem 0;
+    margin:2rem 0;  
 }  
 .about-content h3{
     text-transform: capitalize;
@@ -399,9 +394,11 @@ nav .menu ul li a.activee{
 }
 .about-content p{
     line-height: 26px;
-    font-size: 1.5rem;
+    font-size: 1.8rem; 
     margin-bottom: 30px;
-    color:#CFCFCF;
+    font-style: italic;
+    /* color:#CFCFCF; */
+    color:#000;
 } 
 .image-about{ 
     position: relative; 
@@ -419,7 +416,8 @@ nav .menu ul li a.activee{
 /*========================================================*/
 #services-section{
     overflow: hidden;
-    background-color:#000; 
+    background-color:#ddd; 
+    color:#000000;
     padding:6.5rem; 
     background-position: right top; 
     background-size: 300px;
@@ -435,13 +433,14 @@ section #services-section{
 }*/ 
 #services-section .section-title h3{
     font-size: 40px;
+    color:#000000;
 }
 #services-section .section-title p{
     line-height: 28px;
-    font-size: 20px; 
+    font-size: 1.5rem;
 }
 .service-text{
-    color:#CFCFCF;
+    color:#1d1b1b; 
 }
 .single-service{
     height:36rem ;
@@ -450,14 +449,15 @@ section #services-section{
     top: 0px;
     position: relative;
     margin-bottom: 30px;
-    transition: .4s;
+    transition: .4s; 
+    border-radius: 5px; 
+    background: linear-gradient(20deg,#667eea , #764ba2);
 }
 .single-service:hover{
-    border:1px solid #FF5D5B;
+    /* border:1px solid #FF5D5B; */
     top: -10px;
     transition: .4s;
-}
- 
+} 
 .single-service i{
     height: 6rem;
     width: 6rem;
@@ -472,11 +472,11 @@ section #services-section{
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 3rem;
-    color:#fff;
+    color:#FFC312;
 }
 .single-service p{
     margin-bottom: 3rem;
-    color:#fff;
+    color:#000;
 }
 #services-section .single-service .read-more{
     font-size: 1.5rem;
@@ -485,143 +485,153 @@ section #services-section{
 
 /*========================================================*/
 /*=============== Start Team member-section===================*/
-/*========================================================*/ 
-#team-section{
-    background:#000000;
-    padding:70px 0;
+/*============= Start work-section==============*/
+.work-section{
+	padding: 9rem 0;
+    background: linear-gradient(#667eea , #66a6ff)!important;
 }
-.single-member{
-    background:#fff;
-    margin-top: 40px;
-    border-radius: 6px; 
-    cursor: pointer;
-    position: relative; 
-    top: 0;
-    transition: .6s;
-    box-shadow: 0 4px 10px rgba(0,0,0,.2); 
+.work-section .section-title{
+    margin-bottom: 70px;
+}
+.work-item{
+	margin-bottom: 50px;
+} 
+.work-item button{
+	display: inline-block;
+	border:1px solid #45a29e;
+	margin-right: 10px;
+    margin-bottom: 20px;
+	font-size: 16px;
+	color: #000 ; 
+	padding:5px 15px;
+	border-radius: 6px;
+	text-decoration: none;
+	transition:.2s;
+} 
+.mixitup-control-active{
+   border:1px solid #45a29e!important; 
+   background: linear-gradient(#F87B94 , #fecfef)!important;
+   color:#000;
+}
+.single-work a{
+	text-decoration: none;
+}
+.single-work{
+    background: linear-gradient(-39deg, #fbb157, #fff);
+    padding: 20px;
+    border-radius: 20px;
+    transition: .4s;
+    margin-bottom: 25px;
+}
+.single-work:hover{
+    background: linear-gradient(#fff , #fbb157 );
 }
 .single-img{
-    position: relative; 
-    overflow: hidden; 
-}
-.single-member:hover{
-    top: -20px;
-}
-.single-img:before{
-    opacity: 0.8;
-    /* background: linear-gradient(to bottom, transparent 40%, #000000); */
-    
-    transition: opacity backgound .3s;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: block;
-    top: 0;
-    left: 0;
-    content: "";
-    z-index: 0;
-}
-.single-member:hover .single-img:before{
-    /* background:rgb(22, 136, 170,.4); */
-    background: linear-gradient(#d563e8,#e31140);
-}
-.single-member:hover .social{
-    bottom: 10px;
-    opacity: 1; 
-}
-.single-member:hover img{ 
-    background-color: rgba(0 , 0, 0 ,.5);
-}
-.social{
-    position: absolute;
-    width: 100%;
-    bottom: -30px; 
-    opacity: 0;
-    transition: .7s; 
-    overflow: hidden;
-}
-.social ul{
-    margin: 0;
-    padding: 0;  
-}
-.social ul li{
-    list-style: none;
     display: inline-block;
-}
-.social ul li a{
-    color:#fff;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 10px;
-    background-color: #4EC5EF; 
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
+    margin-bottom: 20px;
+    background-color: #eb4511;
+    background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%); 
+    padding: 20px;
     border-radius: 50%;
-    transition:.3s;
+    box-shadow: 10px 10px 20px 0 rgb(0 0 0 / 10%);
 }
-.social ul li a:hover{
-    background:#C70039;
+.single-imgtwo{
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); 
 }
-.single-member img{
-    height: 450px;
-    width: 100%; 
-    
+.single-imgthree{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
-.member-details{
-    padding:10px 15px; 
+.single-imgfour{
+    background-color: #d5adc8;
+    background-image: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
 }
-.member-details a{
-    text-decoration: none;
+.single-imgfive{
+    background-color: #f9484a;
+    background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+}
+.single-imgsix{
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+}
+.single-imgseven{
+    background-color: #fc5296;
+    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+}
+.single-imgeight{
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+.single-work h3{
+    font-weight: 700;
     color:#000;
-    font-weight: 20;
-    text-transform: capitalize;
-    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
-.member-details a h5{
-    font-size: 19px;
-    color:#fff;
-    font-weight: 800;
-    margin-bottom: 5px;
+/* .single-work{
+	position: relative;
+	border-radius: 5px;
+	margin-bottom: 32px;
 }
-.member-details span{
-    color:#2F024A;
-    font-size: 16px; 
-    font-weight: 600;
-    text-transform: capitalize;
+.single-work img{
+	border:1px solid #45A29E;
+	border-radius: 5px;
+	height:auto;
+	width: auto;
+	position: relative;
+	cursor: pointer;
+	
 }
-.member-details p{
-    font-size: 14px;
-    margin-top: 15px;
-} 
- 
-.social-link a{
-    display: inline-block;
-    margin-right: 0.5rem;
-    margin-bottom: 1rem;
+.single-work:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	opacity: 0; 
+	background-color:rgba(0,0,0,.6);
+	transition: .2s;
 }
-.social-link a:hover i{ 
-    background:#C70039;
-    color: #fff;
+.single-work:hover:before,
+.single-work:hover .work-title{
+	opacity: 1;
+	cursor: pointer;
+	border-radius: 6px;
+} */
+.work-title{
+	position: absolute;
+	color:#fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 990;
+	opacity: 0;
 }
-.social-link a i{
-    display: inline-block;
-    width: 3rem;
-    height:3rem;
-    line-height: 3rem;
-    border-radius: 50%;
-    border:.1rem solid #C70039;
-    color:#C70039;
-    transition: .3s;
-} 
-/*=========================================================================*/
+.work-title span{
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.work-title a{
+	color:#fff; 
+	text-decoration: none;
+	font-size: 25px; 
+	display: inline-block;
+	margin-right: 32px;
+
+}
+.work-title a:hover{
+	color:#45A29E;
+}
+/*==========End Work==========*/
 
 /*==============Start our-gallery=======================*/
 
 #portfolio{
-    padding:7rem 0;
-    background-color: #000; 
+    padding:9rem 0;
+    background-color: #ddd; 
     background-position: left top; 
     background-size: 400px;
     background-repeat: no-repeat;
@@ -634,6 +644,12 @@ section #services-section{
 #portfolio .section-title{
     margin-bottom: 5rem;
 } 
+#portfolio .section-title h3{
+    color:#000;
+} 
+.gallery-body{
+    margin:80px 0;
+}
 .single-gallery img{
      height: 100%;
      width: 100%;
@@ -703,8 +719,8 @@ section #services-section{
 
 /*====================Start client-section section====================*/
 #client-section{
-    padding:7rem 0; 
-    background:#000;
+    padding:9rem 0; 
+    background: linear-gradient(#667eea , #66a6ff)!important;
     color:#fff; 
 }  
 #client-section  .section-title{
@@ -782,15 +798,19 @@ section #services-section{
 /*===========================================*/
 
 #blog-section{
-    background:#000;
+    background:#ddd;
     padding: 7rem 0; 
 }
 #blog-section .section-title h2::after{
     background-color: #ddd;
 } 
+#blog-section .section-title h3{
+    color: #000;
+} 
 #blog-section .single-blog{
     margin-top: 4rem;
-    background: #050505;
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
     border-radius:  .6rem;
     box-shadow: 0 .5rem .10rem 0 rgba(0, 0, 0, 0.15);
 }
@@ -832,10 +852,10 @@ section #services-section{
     color: #c70039;
 }
 .admin-details ul li:hover a{
-    color: #c70039;
+    color: #fff;
 }
 .admin-details ul li a{
-    color:#999;
+    color:#000;
     display: inline-block;
     margin-left: .5rem;
     font-size: 1.1rem;
@@ -846,7 +866,7 @@ section #services-section{
 }
 .read-more a{
     font-size: 1.5rem;
-    color:#FF5D5B;
+    color:#000;
 }
 .read-more i{
     transition: .3s;
@@ -861,8 +881,8 @@ section #services-section{
  
 /*==========Start conatct-section==========*/
 #contact-section{
-    padding: 7rem 0;
-    background-color: #000;
+    padding: 9rem 0;
+    background: linear-gradient(#667eea , #66a6ff)!important;
 } 
 #contact-section .section-title{
     margin-bottom: 4rem;
@@ -881,6 +901,14 @@ section #services-section{
 #contact-section h3{
     color:#fff;
 }
+.phone-address{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.phone-address h3{
+    color: #000 !important;;
+}
 #contact-section .contact-body input{
     margin-bottom: 1.5rem;
     display: inline-block;
@@ -897,13 +925,11 @@ section #services-section{
 .btn-submit{
     padding: 1rem 4rem!important;
     font-size: 2rem; 
-    color:#fff; 
-    border:none;
-    border:1px solid #fff;
+    color:#000!important; 
+    border:none; 
 }
 .btn-submit:hover{
-    cursor: pointer!important;
-    border:1px solid #fff;
+    cursor: pointer!important; 
 }
 /*===============End Contact Section==============*/
 
@@ -982,6 +1008,9 @@ section #services-section{
     text-align: center;
     margin-right: .5rem;
     background:#C70039;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
     color:#fff;
     border-radius: 50%;
 } .footer-section .social-link a i{
